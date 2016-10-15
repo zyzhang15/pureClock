@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\edit_text_unfocus.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\edit_text_unfocus.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\check_selector.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\check_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\edit_text_selector.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\edit_text_selector.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\edit_text_focus.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\edit_text_focus.xml"
+    }
+]

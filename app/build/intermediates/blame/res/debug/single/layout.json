@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_me.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\layout\\activity_about_me.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\daydream_service_setting.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\layout\\daydream_service_setting.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_layout.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\layout\\setting_layout.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_city.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\layout\\activity_choose_city.xml"
+    }
+]

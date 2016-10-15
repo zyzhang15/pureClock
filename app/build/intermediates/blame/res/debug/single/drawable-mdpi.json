@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_arrow_back_white_24dp.png",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\ic_arrow_back_white_24dp.png"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cursor.png",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\cursor.png"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\unchecked.png",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\unchecked.png"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\checked.png",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\checked.png"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_check_circle_white_48dp.png",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\drawable-mdpi\\ic_check_circle_white_48dp.png"
+    }
+]

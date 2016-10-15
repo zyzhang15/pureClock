@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 调整你的时钟 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adjust_clock"
+        android:textSize="20sp" />
+    <!-- 更改你的位置 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_vertical_margin"
+        android:text="@string/your_location"
+        android:textSize="15sp" />
+    <!-- 输入位置 -->
+
+    <TextView
+        android:id="@+id/input_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_tip_vertical_margin"
+        android:singleLine="true"
+        android:textColor="#FFF"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textSize="20sp" />
+    <!-- 在输入框下画一条线 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" >
+    </View>
+    <!-- 更改你的文字标志 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_vertical_margin"
+        android:text="@string/one_word"
+        android:textSize="15sp" />
+    <!-- 输入文字 -->
+
+    <EditText
+        android:id="@+id/input_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_tip_vertical_margin"
+        android:background="@null"
+        android:hint="@string/one_word"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textColor="#FFF"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textSize="20sp" />
+    <!-- 在输入框下画一条线 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF" >
+    </View>
+
+    <CheckBox
+        android:id="@+id/show_tips"
+        style="@style/MyCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_vertical_margin"
+        android:text="@string/isShowTips"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- about_me -->
+
+        <TextView
+            android:id="@+id/about_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:onClick="openAboutMe"
+            android:paddingEnd="2sp"
+            android:paddingStart="2sp"
+            android:text="@string/about_me"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal" >
+
+            <!-- 按钮提示 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="center_vertical"
+                android:paddingEnd="2sp"
+                android:paddingStart="2sp"
+                android:text="@string/button_tip"
+                android:textColor="#888"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <!-- 按钮 -->
+
+            <ImageButton
+                android:id="@+id/button_ok"
+                android:contentDescription="@string/button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:background="#00000000"
+                android:src="@drawable/ic_check_circle_white_48dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

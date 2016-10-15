@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tips">long press screen to open setting interface</string>
+    <string name="my_email">z446372168@live.com</string>
+    <string name="version">version 1.0(release)</string>
+    <string name="my_name">sky</string>
+    <string name="app_name">Pure Clock</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_about_me">About</string>
+    <string name="adjust_clock">adjust your clock</string>
+    <string name="one_word">logo</string>
+     <string name="contact_me">if you have any suggestion,please contact me:</string>
+    <string name="about_me">ABOUT-ME</string>
+    <string name="isShowTips">show tips</string>
+    <string name="button_tip">enter to apply</string>
+    <string name="button_ok">OK</string>
+    <string name="your_location">Choose your city</string>
+    <string name="action_settings">Settings</string>
+        <string name="hello_world">Hello world!</string>
+    <string name="choose_city_hint">input city name or zip code</string>
+    <string name="no_location_tips">no data</string>
+    <string name="Monday">Mon</string>
+    <string name="Tuesday">Tue</string>
+    <string name="Wednesday">Wed</string>
+    <string name="Thursday">Thur</string>
+    <string name="Friday">Fri</string>
+    <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
+    <string name="January">Janu</string>
+    <string name="February">Febr</string>
+    <string name="Marth">Mar</string>
+    <string name="April">Apr</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">Aug</string>
+    <string name="September">Sep</string>
+    <string name="October">Oct</string>
+    <string name="November">Nov</string>
+    <string name="December">Dec</string>
+    <string name="title_activity_choose_city">Choose City</string>
+
+</resources>

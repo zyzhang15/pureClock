@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="icon_vertical_margin">40dp</dimen>
+    <dimen name="setting_tip_vertical_margin">10dp</dimen>
+    <dimen name="setting_vertical_margin">12dp</dimen>
+    <dimen name="text_horizontal_margin">10dp</dimen>
+    <dimen name="text_vertical_margin">8dp</dimen>
+    <string name="April">4月</string>
+    <string name="August">8月</string>
+    <string name="December">12月</string>
+    <string name="February">2月</string>
+    <string name="Friday">周五</string>
+    <string name="January">1月</string>
+    <string name="July">7月</string>
+    <string name="June">6月</string>
+    <string name="Marth">3月</string>
+    <string name="May">5月</string>
+    <string name="Monday">周一</string>
+    <string name="November">11月</string>
+    <string name="October">10月</string>
+    <string name="Saturday">周六</string>
+    <string name="September">9月</string>
+    <string name="Sunday">周末</string>
+    <string name="Thursday">周四</string>
+    <string name="Tuesday">周二</string>
+    <string name="Wednesday">周三</string>
+    <string name="about_me">ABOUT-ME</string>
+    <string name="action_settings">Settings</string>
+    <string name="adjust_clock">调整你的时钟</string>
+    <string name="app_name">简洁时钟</string>
+    <string name="button_ok">OK</string>
+    <string name="button_tip">按下按钮完成设置</string>
+    <string name="choose_city_hint">输入城市或邮编</string>
+    <string name="contact_me">如果你有什么意见或建议，请联系我：</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="isShowTips">显示提示</string>
+    <string name="my_email">z446372168@live.com</string>
+    <string name="my_name">sky</string>
+    <string name="no_location_tips">没有查到该位置</string>
+    <string name="one_word">文字标志</string>
+    <string name="tips">长按屏幕打开设置界面</string>
+    <string name="title_activity_about_me">关于简洁时钟</string>
+    <string name="title_activity_choose_city">选择城市</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="version">版本1.0(release)</string>
+    <string name="your_location">选择你关注的城市</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/check_selector</item>
+    </style>
+</resources>

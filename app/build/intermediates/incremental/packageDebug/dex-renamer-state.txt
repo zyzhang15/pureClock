@@ -1,0 +1,7 @@
+#Fri Oct 14 21:40:43 CST 2016
+base.0=D\:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4d76f50d44a496b40b702ac53ebb35315b65608b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c5a0ae364c4ef899fd138e00da1637ef1f42171e\\classes.dex
+base.1=D\:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c5a0ae364c4ef899fd138e00da1637ef1f42171e
+file.0=D\:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4d76f50d44a496b40b702ac53ebb35315b65608b\\classes.dex

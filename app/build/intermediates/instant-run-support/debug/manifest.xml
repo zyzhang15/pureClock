@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.wic.zzy.pureclock"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:allowTaskReparenting="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme" >
+
+        <!-- MainActivity -->
+        <activity
+            android:name="cn.edu.wic.zzy.pureclock.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- SettingForDayDreamService -->
+        <activity
+            android:name="cn.edu.wic.zzy.pureclock.activity.SettingForDayDreamService"
+            android:label="@string/title_activity_setting" />
+
+        <!-- AboutMeActivity -->
+        <activity
+            android:name="cn.edu.wic.zzy.pureclock.activity.AboutMeActivity"
+            android:label="@string/title_activity_about_me"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <!-- ChooseCityActivity -->
+        <activity
+            android:name="cn.edu.wic.zzy.pureclock.activity.ChooseCityActivity"
+            android:label="@string/title_activity_choose_city"
+            android:theme="@style/android:Theme.Dialog" />
+
+        <!-- ClockDayDreamService -->
+        <service
+            android:name="cn.edu.wic.zzy.pureclock.service.ClockDayDreamService"
+            android:exported="true"
+            android:label="pureClock"
+            android:permission="android.permission.BIND_DREAM_SERVICE" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.service.dreams.DreamService" />
+            </intent-filter>
+
+            <!--
+                 用于在添加dayDream时打开一个设置面板，
+                <meta-data
+                android:name="android.service.dream"
+                 android:resource="@xml/my_dream" />
+            -->
+        </service>
+    </application>
+
+</manifest>

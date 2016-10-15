@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\setting.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\menu\\setting.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\about_me.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\menu\\about_me.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\choose_city.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\menu\\choose_city.xml"
+    },
+    {
+        "merged": "D:\\android\\workspace_android\\pureClock1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\android\\workspace_android\\pureClock1\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]
