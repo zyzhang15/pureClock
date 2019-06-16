@@ -5,7 +5,7 @@
 android存储技术:SharePreferences. SQLite.
 
 网络访问:
-ohHttp;
+okHttp;
 
 
 2016.10.15
